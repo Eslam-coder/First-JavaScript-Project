@@ -1,0 +1,16 @@
+* {
+    background-color: orange;
+}
+
+h1 {
+    position: absolute;
+    color: black;
+    text-align: center;
+    margin-left: 550px;
+}
+
+img {
+    margin-left: 650px;
+    width: 100px;
+    height: 100px;
+}

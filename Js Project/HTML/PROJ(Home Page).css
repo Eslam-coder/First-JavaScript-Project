@@ -1,0 +1,133 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+    /* rgb(218, 54, 19)*/
+    
+    #orange {
+        width: 80px;
+        height: 70px;
+        margin-top: 5px;
+        /*float: right;*/
+        position: absolute;
+    }
+    
+    div {
+        background-color: orange;
+        text-align: center;
+    }
+    
+    div ul {
+        display: inline-flex;
+        color: white;
+        list-style: none;
+    }
+    
+    div ul li {
+        /*margin: 15px;*/
+        padding: 30px;
+        width: 100px;
+    }
+    
+    div ul li a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    div ul a:hover {
+        background-color: white;
+        color: orange;
+        border-radius: 3px;
+    }
+    
+    div ul li :hover ul li {
+        background-color: white;
+        border-radius: 3px;
+        display: block;
+    }
+    
+    ul li ul {
+        display: none;
+    }
+    /*edited*/
+    
+    ul li ul li {
+        width: fit-content;
+        text-align: center;
+        z-index: 2;
+    }
+    /*edited*/
+    
+    div ul :hover ul {
+        position: absolute;
+        background-color: orange;
+        display: flex;
+        flex-direction: column;
+        z-index: 2;
+        /*margin-top: 20px;*/
+    }
+    
+    img {
+        width: 700px;
+        height: 500px;
+        z-index: 1;
+        border-radius: 5px;
+    }
+    
+    #slider {
+        width: 700px;
+        height: 500px;
+        margin: 20px auto;
+        margin-top: 2px;
+        position: relative;
+        z-index: 1;
+        border-radius: 5px;
+        /*border: 5px solid white;*/
+        /*box-shadow: 0px 0px 5px 2px;*/
+    }
+    
+    button {
+        position: relative;
+        /*top: 10%;*/
+        bottom: 50%;
+        padding: 5px;
+        /* margin-right: 465px;
+        margin-left: 0px;*/
+        background-color: orange;
+        cursor: pointer;
+    }
+    
+    .next {
+        float: right;
+        margin-right: 0px;
+        margin-left: 1000;
+    }
+    
+    .prev {
+        float: left;
+        margin-left: 1000;
+    }
+
+    .paragraph{
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        text-align: right;
+        margin-top: 5px;
+        padding: 20px; 
+    }
+
+
+    .footer{
+        background-color: black;
+        color: orange;
+        font-size: 20px;
+        text-align: center;
+        margin: px;
+        padding: 30px;
+    }

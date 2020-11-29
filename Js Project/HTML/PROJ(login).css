@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+body {
+    /*background-image: url(../Photo/imgorg1.jpg);*/
+    background-color: #feca57;
+    /*opacity: 100%;*/
+    width: 100%;
+}
+
+.topnav {
+    background-color: orange;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #0a0909;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  #orange {
+    width: 80px;
+    height: 70px;
+    margin-top: 2px;
+    /*float: left;*/
+    position: absolute;
+}
+
+.form-login {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    transform: translateY(90%);
+    position: relative;
+    top: 20%;
+    box-shadow: 0 0 20px white;
+    border: none;
+}
+
+.form-login .button {
+    padding: 8px 20px;
+    /* margin-top: 10px;*/
+    background-color: #f0932b;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    width: 50%;
+    cursor: pointer;
+    /* margin-bottom: 35px;*/
+    margin: 3px auto;
+}
+
+.form-login input {
+    display: block;
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 15px;
+    border-color: #f0932b;
+    margin-top: 15px;
+    width: 70%;
+}
+
+.form-login img {
+    border-radius: 100%;
+    position: absolute;
+    top: -20%;
+    margin-left: -25px;
+    opacity: 0.6;
+}
+

@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+/* Add a orange background color to the top navigation */
+.topnav {
+    background-color: orange;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #0a0909;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  #orange {
+    width: 80px;
+    height: 70px;
+    margin-top: 2px;
+    /*float: left;*/
+    position: absolute;
+}
+.container {
+
+    width: 1000px;
+    margin: 12px auto ;
+    background-color: #000000d7; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+
+}
+.container div {
+background-color: white;
+height: 70%;
+width: 950px;
+padding: 2 px;
+margin: 10px;
+border-radius: 4px;
+display: flex;
+}
+.container .one img{
+    display: flex;
+    width: 200px;
+}
+.container  .content{
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+    padding: 20px;
+}
+ 
+

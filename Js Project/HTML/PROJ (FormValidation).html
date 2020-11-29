@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="PROJ (FormValidation).css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="../HTML/PROJ (Home Page).html">الصفحة الرئيسيه</a>
+        <img src="../Photo/orange.png" id="orange" />
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>إنشاء حساب</h1>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>FirstName</label>
+                <input type="text" placeholder="FirstName" id="firstname">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="small">error message</small>
+            </div>
+            <div class="form-control">
+                <label>LastName</label>
+                <input type="text" placeholder="LastName" id="lastname">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="small">error message</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="aa@yahoo.com" id="Email" var pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="small">error message</small>
+            </div>
+            <div class="form-control">
+                <label>Age</label>
+                <input type="text" placeholder="age" id="age">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="small">error message</small>
+            </div>
+
+            <div class="radio">
+                <input type="radio" name="g" id="r1" />
+                <label name="g" for="r1">Male</label><br/>
+                <input type="radio" name="g" id="r2" />
+                <label for="r2">Female</label><br>
+                <!--<small>error message</small>-->
+                <div id="errorRadio"></div>
+            </div>
+            <br>
+
+            <div class="form-control">
+                <select id="select">
+                    <option value="" selected disabled >Choose a country</option>
+                    <optgroup label="Africa">
+                        <option>Egypt</option>
+                        <option>Libya</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option>Oman</option>
+                        <option>UAE</option>
+                    </optgroup>
+                </select>
+                <small>error messsage</small>
+            </div>
+
+            <div class="font-control">
+                <div>Address</div>
+                <textarea rows="3" cols="42" placeholder="Enter Address" id="txtaddress"></textarea>
+                <div id="errorAddress"></div>
+
+            </div>
+
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="Password" id="password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="small">error message</small>
+            </div>
+            <div class="form-control">
+                <label>Password Check</label>
+                <input type="password" placeholder="PasswordCheck" id="passwordcheck">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small id="small">error message</small>
+            </div>
+            <button>submit</button>
+        </form>
+    </div>
+    <script src="../JS/PROJ.js"></script>
+
+</body>
+
+</html>

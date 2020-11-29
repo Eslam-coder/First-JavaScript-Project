@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+/*
+
+
+/* Add a orange background color to the top navigation */
+.topnav {
+    background-color: orange;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #0a0909;
+    text-align: center;
+    padding: 25px 30px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  
+  #orange {
+    width: 80px;
+    height: 70px;
+    margin-top: 2px;
+    /*float: left;*/
+    position: absolute;
+}
+
+
+
+.container {
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    width: 400px;
+    margin: 5px auto;
+}
+
+.header {
+    background-color: black;
+    color: orange;
+    text-align: center;
+    /*float: top;
+    margin-top: 10px;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header h2 {
+    margin: 0px;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-control input {
+    border: 2px solid black;
+    border-radius: 4px;
+    display: block;
+    font-family: tahoma;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+}
+
+#txtaddress {
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+#txtaddress:hover {
+    border: 2px solid cornflowerblue;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+#select {
+    border: 2px solid black;
+}
+
+.form-control input:hover {
+    border: 2px solid cornflowerblue;
+    border-radius: 4px;
+    display: block;
+    font-family: tahoma;
+    font-size: 14px;
+    padding: 5px;
+    width: 100%;
+}
+
+.form-control i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: Hidden;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form button {
+    background-color: black;
+    border: 2px solid orange;
+    color: orange;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+    top: 32px;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+    top: 32px;
+}
+
+.form-control.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control.success small {
+    color: #2ecc71;
+    visibility: hidden;
+}
+
+#errorRadio {
+    color: #e74c3c;
+    font-size: 12px;
+}
+
+#errorAddress {
+    color: #e74c3c;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
